@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:padding="12dp">
+
+  <com.google.android.material.imageview.ShapeableImageView
+    android:id="@+id/circleImageView"
+    android:layout_width="55dp"
+    android:layout_height="55dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="10dp"
+    android:scaleType="centerCrop"
+    android:src="@drawable/lovebird"
+    app:shapeAppearanceOverlay="@style/CircleImageStyle" />
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="5dp"
+    android:text="skydoves"
+    android:textColor="@color/background900"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    tools:ignore="HardcodedText" />
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="5dp"
+    android:text="Love coffee, music, magic tricks and writing poems."
+    android:textColor="@color/background800"
+    android:textSize="14sp"
+    tools:ignore="HardcodedText" />
+
+  <Button
+    android:id="@+id/button_edit"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    android:layout_marginTop="16dp"
+    android:background="@drawable/round_button_skyblue"
+    android:text="Edit"
+    android:textAllCaps="false"
+    android:textColor="@color/white"
+    tools:ignore="HardcodedText" />
+
+</LinearLayout>
